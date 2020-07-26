@@ -1,9 +1,17 @@
 .personalCard{
 
+    width: 25%;
+    height: 200px;
+    background-color: red;
+    float: left;
+    margin: 0px;
+
 }
 
 .topBox{
-
+    width: 75%;
+    height: 200px;
+    background-color: blue;
 }
 
 .languagesBox{
@@ -27,8 +35,14 @@ body{
     background-color: 	#000000;
     font-family: 'Fira Sans', sans-serif;
     color: #ffffff;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
 }
 
 
