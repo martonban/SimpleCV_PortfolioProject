@@ -1,3 +1,23 @@
+/************************************TAG SELECTOR************************************************/
 body{
-    background-color: blue;
+    background-color: #e2e2e4;
+}
+
+b{
+    color: #1c6882;
+}
+
+
+
+/************************************COLOR PALETTE************************************************/
+/*
+It's just a color palette from another site
+This Selection do nothing
+*/
+
+.colors{
+    /* b color */
+    background-color: #1c6882;
+    /* b draker color */
+    color: #1a293c;
 }
