@@ -8,6 +8,32 @@ b{
 }
 
 
+/************************************************************************************/
+
+::selection{
+    color: white  ;
+    background-color: #0aa4d8;
+  }
+  
+  ::-webkit-scrollbar{
+    width: 10px;
+    
+  }
+  
+  ::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, .15);
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    background-color: #1d3f6b;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover{
+    background-color: #182536;
+  }
+  
+
 
 /************************************COLOR PALETTE************************************************/
 /*
