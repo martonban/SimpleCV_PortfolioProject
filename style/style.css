@@ -1,14 +1,46 @@
 /************************************TAG SELECTOR************************************************/
 body{
     background-color: #e2e2e4;
+
 }
+
 
 b{
     color: #1c6882;
 }
 
 
-/************************************************************************************/
+h1{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+
+h2{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+
+h3{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+
+/****************************************CLASSES DEFINIATION**********************************************/
+
+
+
+
+
+
+
+
+/********************************************FANCY PART**************************************************/
 
 ::selection{
     color: white  ;
@@ -25,7 +57,7 @@ b{
   }
   
   ::-webkit-scrollbar-thumb{
-    border-radius: 4px;
+    border-radius: 2px;
     background-color: #1d3f6b;
   }
   
@@ -46,4 +78,5 @@ This Selection do nothing
     background-color: #1c6882;
     /* b draker color */
     color: #1a293c;
+
 }
