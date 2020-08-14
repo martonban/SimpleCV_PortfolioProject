@@ -2,6 +2,8 @@
 body{
   background-color: #e2e2e4;
   margin: 0px;
+  font-family: 'Fira Sans', sans-serif;
+  color: rgb(20, 20, 20);
 }
 
 b{
@@ -37,7 +39,6 @@ img {
   height: auto;
   width: auto;
 }
-
 /****************************************CLASSES DEFINIATION**********************************************/
 /**********SIDE MENU************/
 .sidemenu{
@@ -46,13 +47,14 @@ img {
   color: #ececec;
   float: left;
   width: 30%;
-  height: 1000px;
+  height: 170%;
   position: absolute;
+  display: block;
 }
 
 .profile-pic{
-  width: 14em;
-  height: 14em;
+  width: 12em;
+  height: 12em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
@@ -76,12 +78,29 @@ img {
   margin-left: 10px;
   margin-top: 20px;
 }
-
 /**********TITLE DIV************/
 .title-box{
   color: #ececec;
+  background-color: #162435;
+  height: 40px;
+  width: 70%;
+  float: right;
 }
 
+.h1-blue{
+  color: #1c6882;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.h2-blue{
+  color: #1c6882;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.h3-blue{
+  color: #1c6882;
+  font-family: 'Roboto Condensed', sans-serif;
+}
 /********************************************FANCY PART**************************************************/
 ::selection{
   color: white  ;
@@ -104,7 +123,6 @@ img {
 ::-webkit-scrollbar-thumb:hover{
   background-color: #182536;
 }
-
 /************************************COLOR PALETTE************************************************/
 /*
 It's just a color palette from another site
