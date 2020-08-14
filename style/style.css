@@ -1,6 +1,6 @@
 /***************************************TAG SELECTOR***************************************************/
 body{
-  background-color: #e2e2e4;
+  background-color: rgb(216, 216, 216);
   margin: 0px;
   font-family: 'Fira Sans', sans-serif;
   color: rgb(20, 20, 20);
@@ -39,6 +39,11 @@ img {
   height: auto;
   width: auto;
 }
+
+hr{
+  width: 90%;
+  border: 1px solid black;
+}
 /****************************************CLASSES DEFINIATION**********************************************/
 /**********SIDE MENU************/
 .sidemenu{
@@ -47,7 +52,7 @@ img {
   color: #ececec;
   float: left;
   width: 30%;
-  height: 170%;
+  min-height: 1050px;
   position: absolute;
   display: block;
 }
@@ -78,28 +83,46 @@ img {
   margin-left: 10px;
   margin-top: 20px;
 }
-/**********TITLE DIV************/
-.title-box{
-  color: #ececec;
-  background-color: #162435;
-  height: 40px;
+
+/**********BODY DIV************/
+.content{
   width: 70%;
+  min-height: 1100px;
+  background-color: rgb(216, 216, 216);
+  color: rgb(32, 32, 32);
   float: right;
 }
 
 .h1-blue{
-  color: #1c6882;
+  color: #2194bb;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.h2-blue{
-  color: #1c6882;
-  font-family: 'Roboto Condensed', sans-serif;
+.tex2{
+  margin-left: 35px;
+  margin-right: 75px;
 }
 
-.h3-blue{
-  color: #1c6882;
-  font-family: 'Roboto Condensed', sans-serif;
+/**********TITLE DIV************/
+.title{
+  text-align: center;
+  color: white;
+  background-color: #182536;
+  height: 150px;
+  max-width: 70%;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+
+.h1-white{
+  font-size: 50px;
+  margin-top: 15px;
+}
+
+.h2-white{
+  font-size: 20px;
+  margin-top: 15px;
 }
 /********************************************FANCY PART**************************************************/
 ::selection{
