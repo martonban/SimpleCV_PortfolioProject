@@ -42,7 +42,16 @@ img {
 
 hr{
   width: 90%;
-  border: 1px solid black;
+  height:2px;
+  border-width:0;
+  color:gray;
+  background-color:gray
+}
+
+li{
+  margin-top: 10px;
+  
+  font-size: 20px;
 }
 /****************************************CLASSES DEFINIATION**********************************************/
 /**********SIDE MENU************/
@@ -91,23 +100,38 @@ hr{
   background-color: rgb(216, 216, 216);
   color: rgb(32, 32, 32);
   float: right;
+  font-size: 16px;
 }
 
 .h1-blue{
   color: #2194bb;
   font-family: 'Roboto Condensed', sans-serif;
 }
+.h2-blue{
+  color: #2194bb;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 21px;
+  margin-bottom: 0px;
+  margin-top: 4px;
+}
 
 .tex2{
   margin-left: 35px;
-  margin-right: 75px;
+  margin-right: 80px;
+}
+
+.tex3{
+  margin-top: 3px;
+  margin-bottom: 21px;
+  margin-left: 15px;
+  margin-right: 80px;
 }
 
 /**********TITLE DIV************/
 .title{
   text-align: center;
   color: white;
-  background-color: #182536;
+  background-color: #1a293c;
   height: 150px;
   max-width: 70%;
   margin: auto;
