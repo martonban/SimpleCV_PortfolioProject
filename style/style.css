@@ -65,7 +65,7 @@ li{
   border-radius: 9px;
   position: absolute;
   display: block;
-  margin-top: 35px;
+  margin-top: 20px;
   margin-left: 10px;
 }
 
@@ -139,7 +139,7 @@ li{
   height: 150px;
   max-width: 70%;
   margin: auto;
-  margin-top: 35px;
+  margin-top: 20px;
   margin-bottom: 50px;
   border-radius: 5px;
 }
