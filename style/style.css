@@ -7,7 +7,7 @@ body{
 }
 
 b{
-  color: #1c6882;
+  color: #2194bb;
 }
 
 h1{
@@ -145,15 +145,4 @@ hr{
   
 ::-webkit-scrollbar-thumb:hover{
   background-color: #182536;
-}
-/************************************COLOR PALETTE************************************************/
-/*
-It's just a color palette from another site
-This Selection do nothing
-*/
-.colors{
-   /* b color */
-   background-color: #1c6882;
-   /* b draker color */
-  color: #1a293c;
 }
