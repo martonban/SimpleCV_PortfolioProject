@@ -61,9 +61,12 @@ li{
   color: #ececec;
   float: left;
   width: 30%;
-  min-height: 1050px;
+  height: max-content;
+  border-radius: 9px;
   position: absolute;
   display: block;
+  margin-top: 35px;
+  margin-left: 10px;
 }
 
 .profile-pic{
@@ -95,11 +98,12 @@ li{
 
 /**********BODY DIV************/
 .content{
-  width: 70%;
+  width: 69%;
   min-height: 1100px;
   background-color: rgb(216, 216, 216);
   color: rgb(32, 32, 32);
   float: right;
+  margin-left: 5px;
   font-size: 16px;
 }
 
@@ -137,6 +141,7 @@ li{
   margin: auto;
   margin-top: 35px;
   margin-bottom: 50px;
+  border-radius: 5px;
 }
 
 .h1-white{
